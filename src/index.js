@@ -1,6 +1,10 @@
 import $ from 'jquery';
 import './style.scss';
 
+setTimeout(function(){
+  $('#main').html('Welcome to my Timer!');
+},5);
+
 let count = 0;
 
 function counter() {
